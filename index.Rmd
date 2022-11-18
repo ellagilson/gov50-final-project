@@ -14,3 +14,20 @@ output:
 I am interested in exploring data related to...
 
 Last year I took gov 40 and I looked at a topic that really interested me, so I would like to research it further. This topic examines the effects of gender norms on female terrorism. The article that I used for that project was called "Wolves in Sheep’s Clothing: Assessing the Effect of Gender Norms on the Lethality of Female Suicide Terrorism" by Jakana L. Thomas, but for this project I can find another source! 
+
+```{r}
+library(tidyverse) 
+library(haven)
+data <- read_dta("JThomas_IO.dta")
+
+View(data)
+data |>
+summary(female0_1)
+
+
+```
+
+
+
+
+
